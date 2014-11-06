@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{FBBC677E-A58A-4139-BAF5-AC43A8BB8D64}</ProjectGuid>
+    <ProjectGuid>{64A3B789-E5C6-4730-A6AB-7A5D2D1FD68A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DotNetAnalyzers.Test</RootNamespace>
-    <AssemblyName>DotNetAnalyzers.Test</AssemblyName>
+    <RootNamespace>DotNetRefactoring.Test</RootNamespace>
+    <AssemblyName>DotNetRefactoring.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -95,20 +95,16 @@
     <Compile Include="Helpers\CodeFixVerifier.Helper.cs" />
     <Compile Include="Helpers\DiagnosticResult.cs" />
     <Compile Include="Helpers\DiagnosticVerifier.Helper.cs" />
-    <Compile Include="UnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DotNetAnalyzers\DotNetAnalyzers.csproj">
-      <Project>{155C502D-4E97-4ACF-8A58-EA3095914B50}</Project>
-      <Name>DotNetAnalyzers</Name>
+    <ProjectReference Include="..\DotNetRefactoring\DotNetRefactoring.csproj">
+      <Project>{68e19b11-13c0-4837-a5ca-7e7736953527}</Project>
+      <Name>DotNetRefactoring</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

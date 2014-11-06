@@ -14,6 +14,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAnalyzers.Test", "Dot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAnalyzers.Vsix", "DotNetAnalyzers\DotNetAnalyzers.Vsix\DotNetAnalyzers.Vsix.csproj", "{E33BD244-E0E3-4CA6-A29E-1B6B5E92A89B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{585B0A4B-DF20-4A72-AD57-DC94EEF190A8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetRefactoring", "DotNetRefactoring\DotNetRefactoring\DotNetRefactoring.csproj", "{68E19B11-13C0-4837-A5CA-7E7736953527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetRefactoring.Vsix", "DotNetRefactoring\DotNetRefactoring.Vsix\DotNetRefactoring.Vsix.csproj", "{26A497C9-64CF-4FD2-8390-6836B4349B68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetRefactoring.Test", "DotNetRefactoring\DotNetRefactoring.Test\DotNetRefactoring.Test.csproj", "{64A3B789-E5C6-4730-A6AB-7A5D2D1FD68A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +43,18 @@ Global
 		{E33BD244-E0E3-4CA6-A29E-1B6B5E92A89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E33BD244-E0E3-4CA6-A29E-1B6B5E92A89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E33BD244-E0E3-4CA6-A29E-1B6B5E92A89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E19B11-13C0-4837-A5CA-7E7736953527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E19B11-13C0-4837-A5CA-7E7736953527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E19B11-13C0-4837-A5CA-7E7736953527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E19B11-13C0-4837-A5CA-7E7736953527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A497C9-64CF-4FD2-8390-6836B4349B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A497C9-64CF-4FD2-8390-6836B4349B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A497C9-64CF-4FD2-8390-6836B4349B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A497C9-64CF-4FD2-8390-6836B4349B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A3B789-E5C6-4730-A6AB-7A5D2D1FD68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A3B789-E5C6-4730-A6AB-7A5D2D1FD68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A3B789-E5C6-4730-A6AB-7A5D2D1FD68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A3B789-E5C6-4730-A6AB-7A5D2D1FD68A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
