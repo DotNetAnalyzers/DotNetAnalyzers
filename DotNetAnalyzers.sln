@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22231.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAnalyzers", "DotNetAnalyzers\DotNetAnalyzers\DotNetAnalyzers.csproj", "{155C502D-4E97-4ACF-8A58-EA3095914B50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6EB84336-CD96-42D4-8342-C4A8E8E0EC56}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAnalyzers.Test", "DotNetAnalyzers\DotNetAnalyzers.Test\DotNetAnalyzers.Test.csproj", "{FBBC677E-A58A-4139-BAF5-AC43A8BB8D64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAnalyzers.Vsix", "DotNetAnalyzers\DotNetAnalyzers.Vsix\DotNetAnalyzers.Vsix.csproj", "{E33BD244-E0E3-4CA6-A29E-1B6B5E92A89B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{155C502D-4E97-4ACF-8A58-EA3095914B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{155C502D-4E97-4ACF-8A58-EA3095914B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{155C502D-4E97-4ACF-8A58-EA3095914B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{155C502D-4E97-4ACF-8A58-EA3095914B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBBC677E-A58A-4139-BAF5-AC43A8BB8D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBC677E-A58A-4139-BAF5-AC43A8BB8D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBC677E-A58A-4139-BAF5-AC43A8BB8D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBC677E-A58A-4139-BAF5-AC43A8BB8D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33BD244-E0E3-4CA6-A29E-1B6B5E92A89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33BD244-E0E3-4CA6-A29E-1B6B5E92A89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33BD244-E0E3-4CA6-A29E-1B6B5E92A89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33BD244-E0E3-4CA6-A29E-1B6B5E92A89B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
