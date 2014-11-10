@@ -14,7 +14,7 @@ using Microsoft.CodeAnalysis.Text;
 namespace DotNetRefactoring
 {
     [ExportCodeRefactoringProvider(DotNetRefactoringCodeRefactoringProvider.RefactoringId, LanguageNames.CSharp), Shared]
-    internal class DotNetRefactoringCodeRefactoringProvider : CodeRefactoringProvider
+    public class DotNetRefactoringCodeRefactoringProvider : CodeRefactoringProvider
     {
         public const string RefactoringId = "DotNetRefactoring";
 
