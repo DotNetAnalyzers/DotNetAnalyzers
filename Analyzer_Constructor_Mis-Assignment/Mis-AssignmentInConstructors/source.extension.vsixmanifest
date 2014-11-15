@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="Mis_AssignmentInConstructors..17f9e415-0d34-4679-b2d9-ae069e482adb" Version="1.0" Language="en-US" Publisher="AdamSpeight2008" />
+    <DisplayName>Mis_AssignmentInConstructors</DisplayName>
+    <Description xml:space="preserve">This Roslyn based code diagnostic and code-fix for both CSharp and Visual Basic, checkes to see if you are assigning to a parameter of a constructor when you meant to assign to a similarly named field / property.</Description>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[14.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="Analyzer_VB" Path="|Analyzer_VB|" />
+    <Asset Type="Microsoft.VisualStudio.Analyzer" d:Source="Project" d:ProjectName="Analyzer_VB" Path="|Analyzer_VB|" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="Analyzer_CS" Path="|Analyzer_CS|" />
+    <Asset Type="Microsoft.VisualStudio.Analyzer" d:Source="Project" d:ProjectName="Analyzer_CS" Path="|Analyzer_CS|" />
+  </Assets>
+</PackageManifest>
